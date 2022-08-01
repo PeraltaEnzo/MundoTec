@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <!---------------------------------------------bootstrap/css------------------------------------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!---------------------------------------------- CSS only -------------------------------------------->
+    <link rel="stylesheet" href="proc.css">
+  </head>
+<body>
+  <!--------------------------------------------------logo------------------------------------------------>
+    <header>
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+       <img class="logo-header" src="imagenes/logo.png" alt="" width="150px" height="50px">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+<!---------------------------------Nav---------------->
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 text-white">Inicio</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="mem.html">Memorias</a></li>
+              <li><a class="dropdown-item" href="mot.html">Motherboard</a></li>
+              <li><a class="dropdown-item" href="alm.html">Almacenamiento</a></li>
+              <li><a class="dropdown-item" href="per.html">Perifericos</a></li>
+            </ul>
+          <li><a href="Ayud.html" class="nav-link px-2 text-white">Ayuda</a></li>
+        </ul>
+<!----------buscador----------->
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+        </form>
+        
+        <div class="text-end">
+            <a type="button" href="Usuario.html" class="btn btn-outline-light me-2">Iniciar</a>
+            <a type="button" href="#" class="btn btn-outline-light me-2">registrate</a>
+        </div>
+    </div>
+</header>
+
+<!----------------------------------------cartas------------------------>
+<section class="cartas">
+
+    <div class="conteiner-ord">
+        <div class="dropdown-ord">
+            <button class="btn-ord" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+             <p class="ord">Ordenar Por</p>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Menor Precio</a></li>
+              <li><a class="dropdown-item" href="#">Mayor Precio</a></li>
+            </ul>
+          </div>
+    </div>
+    
+    <div class="conteiner">
+        
+    <div id="card-1" class="card">
+        <img src="Productos/Procesadores/ProcesadorIntelCeleronG5905.webp" id="imag-1" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador Intel Celeron G5905</b></h5>
+            <p id="text-1" class="card-text">Procesador Intel 2 núcleos 3.5GHz con gráfica integrada<br>$7.160</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+        
+    <div id="card-2" class="card">
+        <img src="Productos/Procesadores/ProcesadorIntelPentiumG6400.webp" id="imag-2" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador Intel Pentium G6400</b></h5>
+            <p id="text-2" class="card-text">Procesador de 2 núcleos 4GHz con gráfica integrada<br> $13.000</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+        
+    <div id="card-3" class="card">
+        <img src="Productos/Procesadores/procesador Intel Core i3-10100F.webp" id="imag-3" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador Intel Core i3-10100F</b></h5>
+            <p id="text-3" class="card-text">procesador Intel de 4 núcleos y 4.3GHz<br> $17.000 </p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+
+    <div id="card-4" class="card">
+        <img src="Productos/Procesadores/ProcesadorAmdAthlon3000g.webp" id="imag-4" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador Amd Athlon 3000g</b></h5>
+            <p id="text-4" class="card-text">Procesador AMD 2 núcleos 3.5GHz Con Gráfica Integrada<br>$18.812</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+        
+    <div id="card-5" class="card">
+        <img src="Productos/Procesadores/ProcesadorIntelCorei3-12100F.webp" id="imag-5" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador Intel Core i3-12100F</b></h5>
+            <p id="text-5" class="card-text">Procesador Intel de 4 núcleos 4.3GHz<br> $26.400</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+        
+    <div id="card-6" class="card">
+        <img src="Productos/Procesadores/ProcesadorIntelCorei5-10400F.webp" id="imag-6" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador Intel Core i5-10400F</b></h5>
+            <p id="text-6" class="card-text">Procesador Intel de 6 núcleos 4.3GHz<br> $32.000</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+
+    <div id="card-7" class="card">
+        <img src="Productos/Procesadores/MicroprocesadorAmdRyzen5 -5500.webp" id="imag-7" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador AMD Ryzen 5 3600</b></h5>
+            <p id="text-7" class="card-text">Procesador AMD de 6 núcleos y 4.2GHz<br>$32.499</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+
+    <div id="card-8" class="card">
+        <img src="Productos/Procesadores/MicroprocesadorAmdRyzen5 -5500.webp" id="imag-8" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador Amd Ryzen 5 5500</b></h5>
+            <p id="text-8" class="card-text">Prorocesador Amd 6 núcleos 3.6ghz<br>$33.200</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+
+    <div id="card-9" class="card">
+        <img src="Productos/Procesadores/ryzen5-4600g.webp" id="imag-9" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador Ryzen 5 4600g</b></h5>
+            <p id="text-9" class="card-text">Procesador AMD 6 Nucleos 3.7ghz con grafica integrada <br> $33.800 </p> 
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+     
+    <div id="card-10" class="card">
+        <img src="Productos/Procesadores/ProcesadorIntelCorei7-10700.webp" id="imag-10" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador Intel Core i7-10700</b></h5>
+            <p id="text-10" class="card-text">Procesador Intel de 8 núcleos 4.8GHz con gráfica integrada<br> $64.200 </p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+        
+    <div id="card-11" class="card">
+        <img src="Productos/Procesadores/ProcesadorRyzen7-5700g.webp" id="imag-11" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador AMD Ryzen 7 5700G</b></h5>
+            <p id="text-11" class="card-text">Procesador AMD 8 núcleos 4.6GHz con gráfica integrada<br> $65.000</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+
+    <div id="card-12" class="card">
+        <img src="Productos/Procesadores/ProcesadorAMDRyzen7-5800X.webp" id="imag-12" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador AMD Ryzen 7 5800X</b></h5>
+            <p  id="text-12" class="card-text">Procesador AMD de 8 núcleos 4.7GHz <br> $81.999</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div> 
+      
+    <div id="card-13" class="card">
+        <img src="Productos/Procesadores/ProcesadorAmdRyzen9-5900x.webp" id="imag-13" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b> Procesador Amd Ryzen 9 5900x</b></h5>
+            <p id="text-13" class="card-text">Procesador AMD 12 nucleos 4.8GHz <br> $120.809</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+      
+    <div id="card-14" class="card">
+        <img src="Productos/Procesadores/ProcesadorAmdRyzen9-5950x.webp" id="imag-14" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador Amd Ryzen 9 5950x</b></h5>
+            <p id="text-14" class="card-text">Procesador AMD 16 núcleos 4.9Ghz<br>$175.500 </p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+
+    <div id="card-15" class="card">
+        <img src="Productos/Procesadores/ProcesadorIntelCoreI9-12900K .webp" id="imag-15" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"><b>Procesador Intel Core I9-12900K</b></h5>
+            <p id="text-15" class="card-text">Procesador Intel de 16 núcleos y 5.2GHz con gráfica integrada<br>$185.319</p>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+    </div>
+      
+    </section>
+  <!-----------------------------------------------------------footer----------------------------------------------------------------------------->
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+        <li class="nav-item"><a href="Contenido descargable/Catálogo MundoTEC.pdf" download="Catalogo-mundoTEC" class="nav-link px-2 text-muted">Catalogo</a></li>
+        <li class="nav-item"><a href="Ayud.html" class="nav-link px-2 text-muted">Contactanos</a></li>
+      </ul>
+      <p class="text-center text-muted">© 2022 MundoTec</p>
+    </footer>
+  </div>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
